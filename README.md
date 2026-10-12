@@ -20,14 +20,6 @@ Size: 123,849 postings, 11 linked CSV files (557 MB); 115,413 postings after cle
 
 The raw data is not included in this repository because of its size. Download it from Kaggle (see below).
 
-Repository structure
-├── prepare_linkedin_data.py   # joins the Kaggle files into one table, converts dates, derives text variables
-├── EDA_LinkedIn_Jobs.ipynb    # cleaning, descriptive statistics and all charts
-├── figures/                   # charts exported from the notebook
-├── report/                    # final project report (PDF)
-├── requirements.txt
-└── README.md
-
 How to reproduce
 Install the libraries:
    pip install -r requirements.txt
